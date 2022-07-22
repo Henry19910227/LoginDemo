@@ -6,14 +6,33 @@
 //
 
 import UIKit
-
-@main
+import FBSDKCoreKit
+import GoogleSignIn
+import LineSDK
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        //Google Login
+        GIDSignIn.sharedInstance.handle(url)
+        //FB Login
+        ApplicationDelegate.shared.application(
+            app,
+            open: url,
+            sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+            annotation: options[UIApplication.OpenURLOptionsKey.annotation]
+        )
+        return false
+    }
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication,didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        //FB Login
+        ApplicationDelegate.shared.application(
+            application,
+            didFinishLaunchingWithOptions: launchOptions
+        )
+        //Line Login
+        LoginManager.shared.setup(channelID: "1657326779", universalLinkURL: nil)
         return true
     }
 

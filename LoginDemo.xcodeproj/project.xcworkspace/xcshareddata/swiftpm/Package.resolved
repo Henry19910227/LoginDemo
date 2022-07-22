@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AppAuth",
+        "repositoryURL": "https://github.com/openid/AppAuth-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "33660c271c961f8ce1084cc13f2ea8195e864f7d",
+          "version": "1.5.0"
+        }
+      },
+      {
+        "package": "Facebook",
+        "repositoryURL": "https://github.com/facebook/facebook-ios-sdk",
+        "state": {
+          "branch": null,
+          "revision": "84107793d352dbf698e3df4bf158d0af3633e3df",
+          "version": "14.0.0"
+        }
+      },
+      {
+        "package": "GoogleSignIn",
+        "repositoryURL": "https://github.com/google/GoogleSignIn-iOS",
+        "state": {
+          "branch": null,
+          "revision": "9450e779619fc184d360c9f7ce61023587f7e1f4",
+          "version": "6.2.2"
+        }
+      },
+      {
+        "package": "GTMSessionFetcher",
+        "repositoryURL": "https://github.com/google/gtm-session-fetcher.git",
+        "state": {
+          "branch": null,
+          "revision": "4e9bbf2808b8fee444e84a48f5f3c12641987d3e",
+          "version": "1.7.2"
+        }
+      },
+      {
+        "package": "GTMAppAuth",
+        "repositoryURL": "https://github.com/google/GTMAppAuth.git",
+        "state": {
+          "branch": null,
+          "revision": "b9d1683be336ba8c8d1c6867bafeb056a5399700",
+          "version": "1.3.0"
+        }
+      },
+      {
+        "package": "LineSDK",
+        "repositoryURL": "https://github.com/line/line-sdk-ios-swift",
+        "state": {
+          "branch": null,
+          "revision": "4e79e15a21645de2b63bd31114893861c9ec0d02",
+          "version": "5.8.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

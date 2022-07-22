@@ -2,6 +2,49 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb3268303936749363</string>
+			</array>
+		</dict>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.376527343165-tu7fr7epqgqc1c1mf2gbqppsn056alf8</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <!-- Specify URL scheme to use when returning from LINE to your app. -->
+                <string>line3rdp.$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+            </array>
+        </dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>3268303936749363</string>
+	<key>FacebookClientToken</key>
+	<string>6d2f5850e7b82ccd736e25e33155a6f0</string>
+	<key>FacebookDisplayName</key>
+	<string>fitopia</string>
+    <key>LineSDKConfig</key>
+    <dict>
+        <key>ChannelID</key>
+        <string>1657326779</string>
+    </dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fbauth</string>
+		<string>fbauth2</string>
+		<string>fb-messenger-share-api</string>
+        <string>lineauth2</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

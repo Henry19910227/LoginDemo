@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA5B80D9288B2A6E00C1AFDC /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = BA5B80D8288B2A6E00C1AFDC /* GoogleSignIn */; };
+		BA5B80DB288B2A6E00C1AFDC /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BA5B80DA288B2A6E00C1AFDC /* GoogleSignInSwift */; };
+		BA5B80DD288B2AA200C1AFDC /* FBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B80DC288B2AA200C1AFDC /* FBLoginViewController.swift */; };
+		BA5B80DF288B2E8800C1AFDC /* GoogleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B80DE288B2E8700C1AFDC /* GoogleLoginViewController.swift */; };
 		BA7C5E60288325D80016108A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C5E5F288325D80016108A /* AppDelegate.swift */; };
 		BA7C5E62288325D80016108A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C5E61288325D80016108A /* SceneDelegate.swift */; };
 		BA7C5E64288325D80016108A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C5E63288325D80016108A /* ViewController.swift */; };
@@ -16,6 +20,11 @@
 		BA7C5E77288325DA0016108A /* LoginDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C5E76288325DA0016108A /* LoginDemoTests.swift */; };
 		BA7C5E81288325DA0016108A /* LoginDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C5E80288325DA0016108A /* LoginDemoUITests.swift */; };
 		BA7C5E83288325DA0016108A /* LoginDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C5E82288325DA0016108A /* LoginDemoUITestsLaunchTests.swift */; };
+		BA7C5E9228832C090016108A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = BA7C5E9128832C090016108A /* FacebookCore */; };
+		BA7C5E9428832C2B0016108A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = BA7C5E9328832C2B0016108A /* FacebookLogin */; };
+		BA88439B288C02DA00B2C746 /* LineSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BA88439A288C02DA00B2C746 /* LineSDK */; };
+		BA88439D2890560300B2C746 /* LineLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88439C2890560300B2C746 /* LineLoginViewController.swift */; };
+		C7B8FC382893D95E00FAC04B /* AppleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8FC372893D95E00FAC04B /* AppleLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA5B80DC288B2AA200C1AFDC /* FBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginViewController.swift; sourceTree = "<group>"; };
+		BA5B80DE288B2E8700C1AFDC /* GoogleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginViewController.swift; sourceTree = "<group>"; };
 		BA7C5E5C288325D80016108A /* LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7C5E5F288325D80016108A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA7C5E61288325D80016108A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		BA7C5E7C288325DA0016108A /* LoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7C5E80288325DA0016108A /* LoginDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoUITests.swift; sourceTree = "<group>"; };
 		BA7C5E82288325DA0016108A /* LoginDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA88439C2890560300B2C746 /* LineLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLoginViewController.swift; sourceTree = "<group>"; };
+		C7B8FC372893D95E00FAC04B /* AppleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginViewController.swift; sourceTree = "<group>"; };
+		C7B8FC392893DE8400FAC04B /* LoginDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA88439B288C02DA00B2C746 /* LineSDK in Frameworks */,
+				BA7C5E9428832C2B0016108A /* FacebookLogin in Frameworks */,
+				BA7C5E9228832C090016108A /* FacebookCore in Frameworks */,
+				BA5B80D9288B2A6E00C1AFDC /* GoogleSignIn in Frameworks */,
+				BA5B80DB288B2A6E00C1AFDC /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,7 @@
 				BA7C5E75288325DA0016108A /* LoginDemoTests */,
 				BA7C5E7F288325DA0016108A /* LoginDemoUITests */,
 				BA7C5E5D288325D80016108A /* Products */,
+				BA7C5E9028832C090016108A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +119,7 @@
 		BA7C5E5E288325D80016108A /* LoginDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C7B8FC392893DE8400FAC04B /* LoginDemo.entitlements */,
 				BA7C5E5F288325D80016108A /* AppDelegate.swift */,
 				BA7C5E61288325D80016108A /* SceneDelegate.swift */,
 				BA7C5E63288325D80016108A /* ViewController.swift */,
@@ -106,6 +127,10 @@
 				BA7C5E68288325D90016108A /* Assets.xcassets */,
 				BA7C5E6A288325D90016108A /* LaunchScreen.storyboard */,
 				BA7C5E6D288325D90016108A /* Info.plist */,
+				BA5B80DC288B2AA200C1AFDC /* FBLoginViewController.swift */,
+				BA5B80DE288B2E8700C1AFDC /* GoogleLoginViewController.swift */,
+				BA88439C2890560300B2C746 /* LineLoginViewController.swift */,
+				C7B8FC372893D95E00FAC04B /* AppleLoginViewController.swift */,
 			);
 			path = LoginDemo;
 			sourceTree = "<group>";
@@ -127,6 +152,13 @@
 			path = LoginDemoUITests;
 			sourceTree = "<group>";
 		};
+		BA7C5E9028832C090016108A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +175,13 @@
 			dependencies = (
 			);
 			name = LoginDemo;
+			packageProductDependencies = (
+				BA7C5E9128832C090016108A /* FacebookCore */,
+				BA7C5E9328832C2B0016108A /* FacebookLogin */,
+				BA5B80D8288B2A6E00C1AFDC /* GoogleSignIn */,
+				BA5B80DA288B2A6E00C1AFDC /* GoogleSignInSwift */,
+				BA88439A288C02DA00B2C746 /* LineSDK */,
+			);
 			productName = LoginDemo;
 			productReference = BA7C5E5C288325D80016108A /* LoginDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +254,11 @@
 				Base,
 			);
 			mainGroup = BA7C5E53288325D80016108A;
+			packageReferences = (
+				BA7C5E8F288329620016108A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				BA5B80D7288B2A6E00C1AFDC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				BA884399288C02DA00B2C746 /* XCRemoteSwiftPackageReference "line-sdk-ios-swift" */,
+			);
 			productRefGroup = BA7C5E5D288325D80016108A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA7C5E64288325D80016108A /* ViewController.swift in Sources */,
+				BA5B80DF288B2E8800C1AFDC /* GoogleLoginViewController.swift in Sources */,
+				C7B8FC382893D95E00FAC04B /* AppleLoginViewController.swift in Sources */,
 				BA7C5E60288325D80016108A /* AppDelegate.swift in Sources */,
+				BA5B80DD288B2AA200C1AFDC /* FBLoginViewController.swift in Sources */,
+				BA88439D2890560300B2C746 /* LineLoginViewController.swift in Sources */,
 				BA7C5E62288325D80016108A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +485,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = LoginDemo/LoginDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4FN8272Q62;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -447,6 +497,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +505,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.henry.LoginDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = LoginDemo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,7 +517,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = LoginDemo/LoginDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4FN8272Q62;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -475,6 +529,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,6 +537,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.henry.LoginDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = LoginDemo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -604,6 +660,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA5B80D7288B2A6E00C1AFDC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		BA7C5E8F288329620016108A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+		BA884399288C02DA00B2C746 /* XCRemoteSwiftPackageReference "line-sdk-ios-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/line/line-sdk-ios-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA5B80D8288B2A6E00C1AFDC /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA5B80D7288B2A6E00C1AFDC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		BA5B80DA288B2A6E00C1AFDC /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA5B80D7288B2A6E00C1AFDC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		BA7C5E9128832C090016108A /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA7C5E8F288329620016108A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		BA7C5E9328832C2B0016108A /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA7C5E8F288329620016108A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		BA88439A288C02DA00B2C746 /* LineSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA884399288C02DA00B2C746 /* XCRemoteSwiftPackageReference "line-sdk-ios-swift" */;
+			productName = LineSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA7C5E54288325D80016108A /* Project object */;
 }
